@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(211, 200, 200);
+}
+#p a:last-child{
+    color: green;
+}
+
+h1 {
+    padding-left: 1.5em;
+
+}
+
+h2 {
+    padding-left: 1.5em;
+}
+
+a {
+    padding-left: 1em;
+    width: 24px;
+}
+
+p {
+    width: 100px;
+    padding-left: 1.5em;
+    height: auto;
+    
+}
+
+a{
+    color:red;
+}
+a:last-of-type{
+    color: green;
+}
+
+
+#second-div p:nth-child(odd) {
+    
+    background-color:blue;
+}
+
+#second-div p:nth-child(even) {
+    
+    background-color: red;
+}
+
+/*#div {
+    border: 2px solid #D4D4D4;
+    background-color: #e5eecc;
+    color:aqua
+}*/
+
+#first-div> p:nth-child(odd):after{
+    content: " NEW ";
+    color: yellow;
+    font-size: medium;
+}
+
+#first-div> p:nth-child(even):after{
+    content: " NEW ";
+    color: yellow;
+    font-size: medium;
+}
+
+ body>p:last-child:hover{
+     font-style: italic;
+}
+
+
+
